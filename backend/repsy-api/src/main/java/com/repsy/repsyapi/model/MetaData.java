@@ -1,5 +1,4 @@
 package com.repsy.repsyapi.model;
-
 import java.util.List;
 
 public class MetaData {
@@ -8,7 +7,6 @@ public class MetaData {
     private String author;
     private List<Dependency> dependencies;
 
-    // Getter & Setter
     public String getName() {
         return name;
     }
